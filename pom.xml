@@ -3,4 +3,28 @@
   <groupId>com.project</groupId>
   <artifactId>selenium-amazon-automation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  	<properties>
+		<maven.compiler.release>17</maven.compiler.release>
+		<maven.target.release>17</maven.target.release>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.19.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.5.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.10.1</version>
+	</dependency>
+	</dependencies>
+  
 </project>
